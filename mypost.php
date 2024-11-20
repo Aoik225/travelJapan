@@ -78,7 +78,11 @@
                   $output .= '
                   <div class="admin-btn">
                     <a href="editpost.php?id=' . $row['pid'] . '" class="btn btn-secondary mt-2">Edit</a>
+<<<<<<< HEAD
                      <a href="includes/deletepost.inc.php?id=' . $row['pid'] . '" class="btn btn-danger mt-2" onclick="myFunction()">Delete</a>
+=======
+                     <a href="includes/deletepost.inc.php?id=' . $row['pid'] . '" class="btn btn-danger mt-2">Delete</a>
+>>>>>>> c03eb3263243db459f6e4727f7d165a9a7c68411
                   </div>';
                 }
           $output .= '</div>
@@ -97,11 +101,14 @@
       // Close Connection
       $conn->close();
     ?>
+<<<<<<< HEAD
     <script>
     function myFunction(){
       confirm("Are you sure to delete the post?");
     }
   </script>
+=======
+>>>>>>> c03eb3263243db459f6e4727f7d165a9a7c68411
   </main>
 
 <!-- FOOTER.PHP -->
