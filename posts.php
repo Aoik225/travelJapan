@@ -69,11 +69,7 @@
           if (isset($_SESSION['userId']) && $_SESSION['userId'] == $row['uid']) {
             $output .= '<div class="admin-btn d-flex justify-content-end p-2">
               <a href="editpost.php?id=' . $row['pid'] . '" class="btn btn-secondary btn-sm me-2">Edit</a>
-<<<<<<< HEAD
               <a href="./includes/deletepost.inc.php?id=' . $row['pid'] . '" class="btn btn-danger btn-sm" onclick="myFunction()">Delete</a>
-=======
-              <a href="./includes/deletepost.inc.php?id=' . $row['pid'] . '" class="btn btn-danger btn-sm">Delete</a>
->>>>>>> c03eb3263243db459f6e4727f7d165a9a7c68411
             </div>';
           }
 
@@ -142,14 +138,11 @@
   $conn->close();
   ?>
   </div>
-<<<<<<< HEAD
   <script>
     function myFunction(){
       confirm("Are you sure to delete the post?");
     }
   </script>
-=======
->>>>>>> c03eb3263243db459f6e4727f7d165a9a7c68411
 </main>
 
 <!-- FOOTER.PHP -->
